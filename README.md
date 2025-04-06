@@ -21,10 +21,25 @@
 | Embedded Rust basics | Memory optimization   | Crisis management skills     |
 
 ### 🏗 **Featured Projects**
+# 🦀 Michael Boutelet | Rust & Resilience
+
+### 💻 **My Journey in Code**
 ```rust
-// My battle plan
-fn main() {
-    let mut career = Career::CivilServant;
-    career.transform_to(Career::RustDeveloper);
-    println!("New destiny: {}", career);
+// ♡ Mon combat en Rust ♡
+struct Survivor {
+    strength: u32,    
+    rust_skills: u32, 
+}
+
+impl Survivor {
+    fn new() -> Self {
+        Survivor {
+            strength: 100,
+            rust_skills: 46,
+        }
+    }
+
+    fn fight(&mut self) {
+        self.rust_skills += 1; 
+    }
 }
