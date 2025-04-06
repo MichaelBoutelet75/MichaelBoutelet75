@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="banner.jpg" alt="Rust & Resilience Banner" width="100%">
+</p>
+
+
+
 ## Hi there 👋
 
 # 🦀 Michael Boutelet | Former Civil Servant → Rust Developer in Training
